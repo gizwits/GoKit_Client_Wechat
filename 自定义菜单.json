@@ -1,0 +1,34 @@
+{
+    "button": [
+        {
+            "type": "view", 
+            "name": "窝窝", 
+            "url": ""
+        }, 
+        {
+            "type": "click", 
+            "name": "奴星球", 
+            "key": "xingqiu"
+        }, 
+        {
+            "name": "更多", 
+            "sub_button": [
+                {
+                    "type": "view", 
+                    "name": "配置Airkiss", 
+                    "url": ""
+                }, 
+                {
+                    "type": "view", 
+                    "name": "设置窝窝", 
+                    "url": ""
+                }, 
+                {
+                    "type": "view", 
+                    "name": "关于窝窝", 
+                    "url": ""
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,174 @@
+@CHARSET "UTF-8";
+*{ padding:0; margin:0; }
+.font {
+	font-family:"微软雅黑";
+	text-align:center;
+	font-weight:bolder;
+	text-shadow: #555 0px 2px 1px, #555 2px 0px 1px, #555 -2px 0px 1px, #555 0px -2px 1px, #555 -1.4px -1.4px 1px, #555 1.4px 1.4px 1px, #555 1.4px -1.4px 1px, #555 -1.4px 1.4px 1px;
+}
+.box{
+	position:absolute;
+	width:100%;
+	height:100%;
+	background-color:#fff2e5;
+	text-align:center;
+}
+.box1 {
+	top:0;
+	left:0;
+}
+.box1 .home_top,.box3 .home_top{
+	width:100%;
+}
+.box1 ul {
+	list-style:none;
+	text-align:center;
+}
+.box1 ul li {
+	width:70%;
+	margin:5% auto;
+	padding:5px;
+	border:#555 4px solid;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color:#1DBB1C;
+}
+.box1 ul li img{
+	vertical-align:middle;
+	width:20%;
+	
+}
+.box1 ul li p {
+	display:inline-block;
+	margin:0;
+}
+.box1 ul li span {
+	display:block;
+}
+.box1 ul li .user {
+	color:#fff;
+	vertical-align:middle;
+}
+.box1 ul li .user .user_name {
+	font-size:1.2em;
+}
+.box1 ul li .user .pet_name {
+	font-size:1.5em;
+}
+.box1 ul li .temp_wet {
+	margin-left:10%;
+	font-size:1.4em;
+	vertical-align:middle;
+}
+.box1 ul li .temp_wet .temp {
+	color:#ff9899;
+}
+.box1 ul li .temp_wet .wet {
+	color:#64ccff;
+}
+.box1 .invitation {
+	position: absolute;
+	top: 90%;
+	left:0;
+	width: 100%;
+	color:#1DBB1C;
+	font-size:1.3em;
+	text-shadow: #333 0px 2px 1px, #333 2px 0px 1px, #333 -2px 0px 1px, #333 0px -2px 1px, #333 -1.4px -1.4px 1px, #333 1.4px 1.4px 1px, #333 1.4px -1.4px 1px, #333 -1.4px 1.4px 1px;
+}
+
+.container-fluid {
+	position: relative;
+	height: 5%;
+}
+
+.container-fluid>img {
+	position: absolute;
+	width: 60%;
+	height: 100%;
+	left: 20%;
+}
+
+.container-qrcode {
+	position: relative;
+	height: 45%;
+}
+
+.container-qrcode>img {
+	position: absolute;
+	width: 60%;
+	height: 75%;
+	top: 5%;
+	left: 20%;
+	right: 20%;
+}
+
+.container-qrcode>p {
+	position: absolute;
+	top: 85%;
+	left: 18%;
+	right: 18%;
+}
+
+.qrcodeTips {
+		
+		display: inline-block;
+		max-width: 80%;
+		margin: 0;
+		word-wrap: break-word;
+		vertical-align: middle;
+		text-align: center;
+		font-size: 1em;
+		line-height: 30px;
+		color:#FFFFFF;
+		margin-top: 0%;
+}
+.qrcodeTitle {
+		color:#ff000e;
+		font-size : 1.5em;
+	}
+
+@media only screen and (min-width: 800px) and (min-height: 850px) {
+	.container-fluid {
+		position: relative;
+		height: 20%;
+		border-bottom: 1px solid #777777;
+	}
+	.container-qrcode {
+		position: relative;
+		height: 80%;
+		border-bottom: 1px solid #777777;
+	}
+	.container-fluid>img {
+		position: absolute;
+		width: 50%;
+		height: 100%;
+		left: 25%;
+	}
+	.container-qrcode>img {
+		position: absolute;
+		width: 20%;
+		height: 30%;
+		top: 5%;
+		left: 40%;
+		right: 40%;
+	}
+	.container-qrcode>p {
+		position: absolute;
+		top: 38%;
+		left: 18%;
+		right: 18%;
+	}
+	.container-qrcode .qrcodeTips {
+		margin-top: 50px;
+		display: inline-block;
+		max-width: 70%;
+		margin: 0;
+		word-wrap: break-word;
+		vertical-align: middle;
+		text-align: left;
+		font-size: 1.2em;
+		line-height: 30px;
+
+	}
+}

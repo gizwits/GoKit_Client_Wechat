@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+body{
+	font-family:Verdana,Microsoft YaHei;
+	font-weight:normal;
+	
+	width:100%;
+	height:100%;
+}
+
+.qr_text{
+	font-family:Verdana,Microsoft YaHei;
+}
+
+#QrcodeTable thead tr th{
+	font-size:15px;
+}
+
+#QrcodeTable tbody tr td{
+	font-size:14px;
+}
+
+.fun_btn{
+	font-family:Verdana,Microsoft YaHei;
+	padding:2px 6px 2px 6px;
+}
+
+.err-msg{
+	color:red;
+	display:none;
+}
+.ajaxloading {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width:100%;
+	height:100%;
+	z-index:9999;
+	background-color:rgba(0,0,0,.8);
+	display:none;
+}
+.ajaxloading p {
+	width:100%;
+	position:fixed;
+	top:48%;
+	left:0;
+	color: #fff;
+	text-align:center;
+}
+.ajaxloading .loadImg{
+	vertical-align: middle;
+	width: 50px;
+	margin-right: 10px;
+}
+.rotationAnimate {
+	animation: rotation 2s linear infinite;
+	-moz-animation: rotation 2s linear infinite;	/* Firefox */
+	-webkit-animation: rotation 2s linear infinite;	/* Safari 和 Chrome */
+	-o-animation: rotation 2s linear infinite;	/* Opera */
+}
+@keyframes rotation
+{
+0%   {transform:rotate(0deg);}
+100% {transform:rotate(360deg);}
+}
+
+@-moz-keyframes rotation /* Firefox */
+{
+0%   {-moz-transform:rotate(0deg);}
+100% {-moz-transform:rotate(360deg);}
+}
+
+@-webkit-keyframes rotation /* Safari 和 Chrome */
+{
+0%   {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);}
+}
+
+@-o-keyframes rotation /* Opera */
+{
+0%   {-o-transform:rotate(0deg);}
+100% {-o-transform:rotate(360deg);}
+}
